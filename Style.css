@@ -19,6 +19,13 @@ body{
     height: 100vh;
     position: relative;
 }
+
+@media screen and (max-width:960px) {
+   .main{
+    background-size: max(1670px,100vw); 
+    width: 109vw;
+   }
+}
 .main .box{
     opacity: 0.60;
     background-color: black;
@@ -158,6 +165,12 @@ input{
         flex-wrap: wrap;
      }
     
+    .secImg img{
+        width: 305px;
+    }
+    .secImg video{
+        width: 305px;
+    }
 }
 
 
