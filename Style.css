@@ -125,6 +125,13 @@ nav button{
     gap: 16px;
 }
 
+@media screen and (max-width:645px){
+    .hero-buttons{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 input{
     padding: 7px 163px 31px 10px;
     font-size: 13px;
@@ -142,6 +149,15 @@ input{
     max-width: 70vw;
     margin: auto;
     align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+@media screen and (max-width: 960px){
+     
+     .first{
+        flex-wrap: wrap;
+     }
+    
 }
 
 
@@ -150,7 +166,7 @@ input{
 }
 
 .secImg img {
-    width: 30vw;
+    width: 511px;
     position: relative;
     z-index: 10;
 }
@@ -182,7 +198,7 @@ input{
     position: absolute;
     top: -13px;
     left: 84px;
-    width: 63%;
+    width: 330px;
     height: 74%;
 }
 
@@ -236,6 +252,17 @@ footer .question{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
+}
+
+
+@media screen and (max-width: 960px){
+     
+   .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+    
 }
 
 .footer-item a {
